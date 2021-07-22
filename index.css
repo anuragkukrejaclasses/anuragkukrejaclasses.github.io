@@ -1,0 +1,53 @@
+html, body {
+  margin: 0;
+  font-size: 18px;
+  font-family: serif;
+  background: #91a3b0;
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  width: 300px;
+  background: aliceblue;
+  height: 100%;
+}
+
+.sidebar .dp {
+  width: 113px;
+  margin: 20px 0 0 93px;
+  border-radius: 50%;
+}
+
+.sidebar .title {
+  margin: 10px 0 0 17px;
+  font-size: 32px;
+  color: #514e4e;
+}
+
+.sidebar .name {
+  margin-left: 119px;
+  font-style: italic;
+  color: #514e4e;
+}
+
+.sidebar img {
+  width: 32px;
+}
+
+.sidebar .contact {
+  margin: 10px 0 0 96px;
+}
+
+.main {
+  margin: 50px 0 0 300px;
+}
+
+.main div.about {
+  padding: 50px 300px 0 300px;
+}
+
+.main img {
+  display: block;
+  margin: 0 auto;
+}
